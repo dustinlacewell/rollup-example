@@ -1,0 +1,16 @@
+{
+  "name": "rollup-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -fr dist; npx rollup -c"
+  },
+  "author": "Dustin Lacewell",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.45.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
